@@ -5,7 +5,7 @@ date: "September 18, 2015"
 output: html_document
 ---
 
-Loading and preprocessing the data
+## Loading and preprocessing the data
 ```{r}
 unzip(zipfile = "activity.zip")
 rawdata <- read.csv("activity.csv")
